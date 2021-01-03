@@ -27,7 +27,6 @@ const styles=StyleSheet.create({
         backgroundColor: "#00A5FF"
     },
     text:{
-        fontFamily:  "Jura-VariableFont_wght",
         color: "white",
         fontSize:33
     }
