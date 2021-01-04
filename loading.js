@@ -1,6 +1,6 @@
 import React from "react"; 
 // react 변수 사용
-import {StyleSheet, Text, View} from "react-native";
+import {StyleSheet, Text, View, StatusBar} from "react-native";
 import * as Font from 'expo-font';
 // font 사용
 
