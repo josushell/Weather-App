@@ -35,8 +35,9 @@ export default class extends React.Component {
       // api로 전달해서 weathter
       this.getWeather(latitude, longitude);
 
-      this.setState({ isLoading: false });
-      // 위치 정보 get 성공하면 로딩 벗어남
+      //this.setState({ isLoading: false });
+      // getlocation과 getweather 모두 false로 설정해서 오류가 발생 -> 이건 지워줌
+      // 날씨 정보 get 성공하면 로딩 벗어남
 
     } catch (error) {
       Alert.alert("location is not found", "please allow");
