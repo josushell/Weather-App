@@ -15,13 +15,18 @@ export default class extends React.Component {
   // 날씨 api axios로 가져오기
   getWeather = async (latitude, longitude) => {
     const { data } = await axios.get(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`);
+
     console.log(data);
 
     this.setState({ 
       isLoading: false, 
       temp: data.main.temp,
-      condition: data.weather[0].main
+      condition: data.weather[0].main,
+      location_city: data.name,
+      location_country: data.sys.country
      });
+
+     //console.log(data.name);
   };
 
   getlocation = async () => {
@@ -49,7 +54,7 @@ export default class extends React.Component {
   }
 
   render() {
-    const { isLoading, temp, condition } = this.state;
-    return isLoading ? <Loading /> : <Weather temp={Math.round(temp)} condition={condition}/>;
+    const { isLoading, temp, condition,location_city, location_country } = this.state;
+    return isLoading ? <Loading /> : <Weather temp={Math.round(temp)} condition={condition} location_city={location_city} location_country={location_country}/>;
   }
 }

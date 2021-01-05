@@ -11,8 +11,8 @@ Font.loadAsync({ 'Jura-VariableFont_wght': require('./assets/fonts/Jura-Variable
 export default function loading() {
     return (
         <LinearGradient
-            colors={"#e8cbc0","#636fa4"}
-            style={styles.background}
+            colors={["#e8cbc0","#636fa4"]}
+            style={styles.container}
         >
             <Text style={styles.text}>
                 What's{"\n"}Weather Today
@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
     },
     text: {
         color: "white",
-        fontSize: 33
+        fontSize: 53,
+        fontWeight: "600"
     }
 });
