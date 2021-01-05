@@ -5,7 +5,7 @@ Using React Native and expo
 ## 1. What's weather today
 'What's weather today' is a basic weather mobile application that takes your location and provides you with weather information from the weather api     
      
-'What's weather today' ¾ÛÀº ±âº»ÀûÀÎ ³¯¾¾ ¸ð¹ÙÀÏ ¾ÛÀ¸·Î½á, »ç¿ëÀÚÀÇ À§Ä¡¸¦ ¹Þ¾Æ¿Í¼­ ³¯¾¾ api¿¡¼­ °¡Á®¿Â ³¯¾¾ Á¤º¸¸¦ ¾Ë·ÁÁÝ´Ï´Ù. (native°¡ ¾Æ´Ñ ÇÁ·¹ÀÓ¿öÅ©´Â Ã³À½À¸·Î µµÀü,,,)     
+'What's weather today' ì•±ì€ ê¸°ë³¸ì ì¸ ë‚ ì”¨ ëª¨ë°”ì¼ ì•±ìœ¼ë¡œì¨, ì‚¬ìš©ìžì˜ ìœ„ì¹˜ë¥¼ ë°›ì•„ì™€ì„œ ë‚ ì”¨ apiì—ì„œ ê°€ì ¸ì˜¨ ë‚ ì”¨ ì •ë³´ë¥¼ ì•Œë ¤ì¤ë‹ˆë‹¤. (nativeê°€ ì•„ë‹Œ í”„ë ˆìž„ì›Œí¬ëŠ” ì²˜ìŒìœ¼ë¡œ ë„ì „,,,)     
      
 * React native (with Javascript)    
 * Expo    
@@ -14,34 +14,34 @@ Using React Native and expo
     
 ## 2. Screenshots
 <div>
-<img src="img/loading">
-<img src="img/clear">
-<img src="img/rain">
-<img src="img/cloudy">
-<img src="img/snow">
-<img src="img/thunder">
-<img src="img/mist">
-<img src="img/dust">
+<img src="img/loading.png">
+<img src="img/clear.png">
+<img src="img/rain.png">
+<img src="img/cloudy.png">
+<img src="img/snow.png">
+<img src="img/thunder.png">
+<img src="img/mist.png">
+<img src="img/dust.png">
 </div>   
    
 There's still more weather options   
-ÀÌ¸¦ Á¦¿ÜÇÑ ³¯¾¾ ¿É¼Çµµ ´Ù¾çÇÏ°Ô ÀÖ½À´Ï´Ù   
+ì´ë¥¼ ì œì™¸í•œ ë‚ ì”¨ ì˜µì…˜ë„ ë‹¤ì–‘í•˜ê²Œ ìžˆìŠµë‹ˆë‹¤   
    
 ## 3. How to build
-¾Û½ºÅä¾î/ ÇÃ·¹ÀÌ ½ºÅä¾î¿¡ Ãâ½Ã´Â ÇÏÁö ¾Ê¾Ò½À´Ï´Ù (¿Ö³Ä¸é ³Ê¹« ±âº»ÀûÀÌ¶ó ¾Æ¹«µµ ¾È¾µµí)   
+ì•±ìŠ¤í† ì–´/ í”Œë ˆì´ ìŠ¤í† ì–´ì— ì¶œì‹œëŠ” í•˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤ (ì™œëƒë©´ ë„ˆë¬´ ê¸°ë³¸ì ì´ë¼ ì•„ë¬´ë„ ì•ˆì“¸ë“¯)   
 ##### using expo
 If you have an expo app on your phone, run this QR code on the expo app. Or use this URL.    
      
-expo ¾ÛÀ» Æù¿¡ °¡Áö°í ÀÖ´Ù¸é expo ¾Û¿¡¼­ ¾Æ·¡ÀÇ QR ÄÚµå¸¦ ½ÇÇàÇÏ°Å³ª URLÀ» ÀÌ¿ëÇÏ¼¼¿ä    
+expo ì•±ì„ í°ì— ê°€ì§€ê³  ìžˆë‹¤ë©´ expo ì•±ì—ì„œ ì•„ëž˜ì˜ QR ì½”ë“œë¥¼ ì‹¤í–‰í•˜ê±°ë‚˜ URLì„ ì´ìš©í•˜ì„¸ìš”    
 
-<img width="30", height="30" src="img/qr">    
+<img width="30%" height="30%" src="img/qr.png">    
    
 expo link: [Expo app](https://expo.io/@josushell/projects/weathertoday, "expo")    
 
 
 ***    
 ## 4. retrospect
-xcode/swift ¶Ç´Â android studio/java or kotlin µîÀÇ native È¯°æÀ» ¾È½áµµ ¸¸µé ¼ö ÀÖ´Â°Ô Á¦ÀÏ Å« ÀåÁ¡ÀÎµí  
-½±°í °£ÆíÇÏ°Ô ¸¸µé ¼ö ÀÖÁö¸¸ ±â´É¸é¿¡¼­´Â nativeº¸´Ù Á¦ÇÑÀûÀÎ °ÍµéÀÌ ¸¹´Ù  
-¹ö±×°¡ ¹ß»ýÇßÀ» ¶§µµ ¿øÀÎÀ» Ã£±â Èûµé´Ù´Â°Ô ÇÔÁ¤(¶óÀÌºê·¯¸® ÀÇÁ¸¼ºÀÌ ³ô¾Æ¼­)   
-Å©±â°¡ Å« ¾ÛÀº react native¸¦ ÀÌ¿ëÇÏ±â¿¡´Â ¹«¸®°¡ ÀÖ°í ToDoList ¾ÛÀÌ³ª ³¯¾¾ ¾Û µî Å©±â°¡ ÀÛ°í ¼­¹ö Åë½ÅÀ» Àû°Ô ÇØµµ µÇ´Â ¾ÛÀº react native·Î ¸¸µå´Â°Ô È®½ÇÈ÷ ÆíÇÒµí ( because it's really easy right?)     
+xcode/swift ë˜ëŠ” android studio/java or kotlin ë“±ì˜ native í™˜ê²½ì„ ì•ˆì¨ë„ ë§Œë“¤ ìˆ˜ ìžˆëŠ”ê²Œ ì œì¼ í° ìž¥ì ì¸ë“¯  
+ì‰½ê³  ê°„íŽ¸í•˜ê²Œ ë§Œë“¤ ìˆ˜ ìžˆì§€ë§Œ ê¸°ëŠ¥ë©´ì—ì„œëŠ” nativeë³´ë‹¤ ì œí•œì ì¸ ê²ƒë“¤ì´ ë§Žë‹¤  
+ë²„ê·¸ê°€ ë°œìƒí–ˆì„ ë•Œë„ ì›ì¸ì„ ì°¾ê¸° íž˜ë“¤ë‹¤ëŠ”ê²Œ í•¨ì •(ë¼ì´ë¸ŒëŸ¬ë¦¬ ì˜ì¡´ì„±ì´ ë†’ì•„ì„œ)   
+í¬ê¸°ê°€ í° ì•±ì€ react nativeë¥¼ ì´ìš©í•˜ê¸°ì—ëŠ” ë¬´ë¦¬ê°€ ìžˆê³  ToDoList ì•±ì´ë‚˜ ë‚ ì”¨ ì•± ë“± í¬ê¸°ê°€ ìž‘ê³  ì„œë²„ í†µì‹ ì„ ì ê²Œ í•´ë„ ë˜ëŠ” ì•±ì€ react nativeë¡œ ë§Œë“œëŠ”ê²Œ í™•ì‹¤ížˆ íŽ¸í• ë“¯ ( because it's really easy right?)     
