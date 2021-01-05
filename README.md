@@ -14,15 +14,15 @@ Using React Native and expo
     
 ## 2. Screenshots
 <div>
-<img src="img/loading.png">
-<img src="img/clear.png">
-<img src="img/rain.png">
-<img src="img/cloudy.png">
-<img src="img/snow.png">
-<img src="img/thunder.png">
-<img src="img/mist.png">
-<img src="img/dust.png">
-</div>   
+<img src="img/loading.PNG" width="20%" height="20%">
+<img src="img/clear.PNG" width="20%" height="20%">
+<img src="img/rain.PNG" width="20%" height="20%">
+<img src="img/cloudy.PNG" width="20%" height="20%">
+<img src="img/snow.PNG" width="20%" height="20%">
+<img src="img/thunder.PNG" width="20%" height="20%">
+<img src="img/mist.PNG" width="20%" height="20%">
+<img src="img/dust.PNG" width="20%" height="20%">
+</div>
    
 There's still more weather options   
 이를 제외한 날씨 옵션도 다양하게 있습니다   
@@ -34,7 +34,7 @@ If you have an expo app on your phone, run this QR code on the expo app. Or use 
      
 expo 앱을 폰에 가지고 있다면 expo 앱에서 아래의 QR 코드를 실행하거나 URL을 이용하세요    
 
-<img width="30%" height="30%" src="img/qr.png">    
+<img src="img/qr.png" width="10%" height="10%">    
    
 expo link: [Expo app](https://expo.io/@josushell/projects/weathertoday, "expo")    
 
