@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "weathertoday",
+    "name": "what's_weather_today",
     "slug": "weathertoday",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Basic weather app using react native and expo",
+    "githubUrl": "https://github.com/josushell/Weather-App.git"
   }
 }
